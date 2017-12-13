@@ -39,12 +39,13 @@ input[type="file"]#cc-uploader-button {
   width: 48.5%;
 }
 #bootstrap-theme .cc-uploader-detail .civicase-file-name {
-  color: #42AFCB;
+  color: #0071BD;
   font-size: 13px;
+  line-height: normal;
   margin: 0;
-  white-space: nowrap;
-  text-overflow: ellipsis;
   overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 #bootstrap-theme .cc-uploader-detail .civicase-file-action {
   text-align: right;
@@ -59,7 +60,7 @@ input[type="file"]#cc-uploader-button {
 }
 #bootstrap-theme .cc-uploader-detail .btn.civicase-file-remove:hover {
   background: none;
-  color: #E6807F;
+  color: #CF3458;
 }
 #bootstrap-theme .cc-uploader-detail .btn-default.cancel {
   border: 1px solid #727E8A;
@@ -77,8 +78,8 @@ input[type="file"]#cc-uploader-button {
   margin-top: 10px;
 }
 #bootstrap-theme .cc-uploader-detail .progress .progress-bar {
-  background: #42AFCB;
+  background: #0071BD;
 }
 #bootstrap-theme .cc-uploader-detail .progress .progress-bar.fullwidth {
-  background: #8EC68A;
+  background: #44CB7E;
 }

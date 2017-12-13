@@ -63,7 +63,7 @@
   position: relative;
 }
 #bootstrap-theme .crm-ui-range span.crm-form-date-wrapper .crm-clear-link {
-  color: #42AFCB;
+  color: #0071BD;
   position: absolute;
   right: 46px;
   top: 50%;
@@ -151,11 +151,11 @@
   color: #4D5663;
 }
 #bootstrap-theme .act-feed-item.activity-overdue {
-  border-left-color: #E6807F !important;
-  border-right-color: #E6807F !important;
+  border-left-color: #CF3458 !important;
+  border-right-color: #CF3458 !important;
 }
 #bootstrap-theme .act-feed-item.activity-overdue .act-direction-icon{
-  color: #E6807F !important;
+  color: #CF3458 !important;
 }
 #bootstrap-theme .act-feed-item .cb-dot {
   top: -7px;
@@ -164,7 +164,7 @@
   padding-left: 30px;
 }
 #bootstrap-theme .act-feed-item.activity-overdue .cb-dot {
-  background: #E6807F !important;
+  background: #CF3458 !important;
 }
 #bootstrap-theme .act-feed-item.act-category-milestone .cb-dot {
   border-color: #F3F6F7;
@@ -308,4 +308,7 @@
 #bootstrap-theme .open>.dropdown-menu {
   position: fixed;
   width: fit-content;
+}
+.page-civicrm-case .crm-container.ui-dialog{
+  z-index: 603 !important;
 }

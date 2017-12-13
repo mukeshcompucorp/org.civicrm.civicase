@@ -198,9 +198,8 @@
 }
 
 #bootstrap-theme .act-feed-list-group .act-category-alert .status-type-incomplete .cb-dot {
-  background-color: #e6807f;
+  background-color: #CF3458;
 }
-
 #bootstrap-theme .activity-timeline .act-date {
   color: #525966;
   font-size: 16px;
@@ -282,7 +281,7 @@
 #bootstrap-theme .case-tab-files  .act-feed-item .act-files .btn-group .btn:hover i,
 #bootstrap-theme .case-tab-files  .act-feed-item .act-files .btn-group .btn:focus i,
 #bootstrap-theme .case-tab-files  .act-feed-item .act-files .btn-group.open .btn.dropdown-toggle i {
-  color: #42AFCB;
+  color: #0071BD;
 }
 #bootstrap-theme .case-tab-files  .act-feed-item .act-subject {
   color: #727E8A;
@@ -346,7 +345,7 @@
 #bootstrap-theme .act-list-controls label.btn:focus {
   background-color: #E8EEF0;
   box-shadow: inset 0 0 5px 0 rgba(0,0,0,0.1);
-  color: #42AFCB;
+  color: #0071BD;
 
 }
 
@@ -383,7 +382,7 @@
 }
 #bootstrap-theme .act-list-controls .btn.btn-clean.active .fa-paperclip,
 #bootstrap-theme .act-list-controls .btn.btn-clean.active .fa-paperclip {
-  color: #42AFCB;
+  color: #0071BD;
 }
 #bootstrap-theme .act-list-controls .select2-container {
   margin-top: 2px;
@@ -497,7 +496,7 @@
   margin: 0px 22px;
 }
 #bootstrap-theme .activity-timeline .act-feed-item.act-category-task {
-  border: !important;
+  border: none !important;
   border-radius: 0;
 }
 #bootstrap-theme .act-feed-panel .pager-show-more,
@@ -548,11 +547,11 @@
 #bootstrap-theme .crm-activity-view-block .help a.button,
 #bootstrap-theme .crm-activity-view-block .crm-submit-buttons a {
   color: #FFF;
-  background-color: #42AFCB;
+  background-color: #0071BD;
   float: none;
 }
 #bootstrap-theme .crm-activity-view-block .crm-submit-buttons a.delete {
-  background-color: #E6807F;
+  background-color: #CF3458;
 }
 #bootstrap-theme .crm-activity-view-block .help a.button:hover,
 #bootstrap-theme .crm-activity-view-block .crm-submit-buttons a:hover {

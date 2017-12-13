@@ -94,7 +94,7 @@ class CRM_Civicase_Upgrader extends CRM_Civicase_Upgrader_Base {
       'name' => 'Unread',
       'grouping' => 'communication',
       'is_reserved' => 0,
-      'color' => '#d9534f',
+      'color' => '#CF3458',
     ));
     $this->addOptionValue(array(
       'option_group_id' => 'activity_status',
@@ -131,15 +131,15 @@ class CRM_Civicase_Upgrader extends CRM_Civicase_Upgrader_Base {
     // Set status colors
     $colors = array(
       'activity_status' => array(
-        'Scheduled' => '#42afcb',
-        'Completed' => '#8ec68a',
+        'Scheduled' => '#0071BD',
+        'Completed' => '#44CB7E',
         'Left Message' => '#eca67f',
         'Available' => '#5bc0de',
       ),
       'case_status' => array(
-        'Open' => '#42afcb',
+        'Open' => '#0071BD',
         'Closed' => '#4d5663',
-        'Urgent' => '#e6807f',
+        'Urgent' => '#CF3458',
       ),
     );
     foreach ($colors as $optionGroup => $statuses) {

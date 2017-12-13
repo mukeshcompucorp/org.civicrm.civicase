@@ -49,7 +49,7 @@
   background: #fff;
 }
 #bootstrap-theme div.case-list-panel:not(.viewing-case) .scrolling table tr:not(.case-placeholder-row) td:first-child:hover {
-  background: #d9edf7;
+  background: #FAFAFB;
 }
 #bootstrap-theme div.case-list-panel:not(.viewing-case) .scrolling table tr td {
   border-bottom: 1px solid #e8eef0;
@@ -102,7 +102,7 @@
 }
 #bootstrap-theme .case-list-table thead tr th .btn-group > .btn:first-child {
   background: #FFF;
-  color: #727e8a;
+  color: #9494A5;
   font-weight: normal;
   text-transform: none;
 }
@@ -132,10 +132,10 @@
   width: 25%;
 }
 #bootstrap-theme .case-list-table td:first-child:hover {
-  background-color: #f2f9fc;
+  background-color: #FAFAFB;
 }
 #bootstrap-theme .viewing-case .case-list-table td.case-selected-for-view {
-  background-color: #d9edf7;
+  background-color: #E8EEF0;
 }
 #bootstrap-theme .case-list-table td:first-child h4 {
   display: inline-block;
@@ -153,7 +153,7 @@
 #bootstrap-theme .case-list-table td:first-child .btn-info {
   background: none;
   border: none;
-  color: #42AFCB;
+  color: #0071BD;
   font-size: 16px;
   padding: 2px;
 }
@@ -189,6 +189,13 @@
 #bootstrap-theme .case-list-table th.fixed-col .btn-group {
   margin-top: 5px;
 }
+#bootstrap-theme .case-list-table th.fixed-col {
+  z-index: 600;
+}
+#bootstrap-theme .case-list-table th.fixed-col .dropdown-menu {
+  top: 45px !important;
+  left: 45px !important;
+}
 #bootstrap-theme .case-activity-summary-icons {
   margin-top: 5px;
 }
@@ -211,7 +218,7 @@
   padding: 15px;
 }
 #bootstrap-theme a.badge.item-overdue {
-  background-color: #d9534f;
+  background-color: #CF3458;
 }
 #bootstrap-theme .civicase-table-expander {
   position: absolute;
@@ -239,7 +246,7 @@
   z-index: 1;
 }
 #bootstrap-theme .civicase-table-expander:hover div {
-  background-color: #23527c;
+  background-color: #0071BD;
 }
 #bootstrap-theme .civicase-table-placeholder {
   cursor: pointer;
@@ -294,7 +301,7 @@
   font-size: 13px;
 }
 #bootstrap-theme .noti-badge {
-  background: #42AFCB;
+  background: #0071BD;
   border-radius: 50%;
   color: #FFF;
   display: inline-block;
@@ -311,7 +318,7 @@
 }
 
 #bootstrap-theme .item-overdue .noti-badge {
-  background: #E6807F;
+  background: #CF3458;
   color: #FFF;
 }
 #bootstrap-theme :not(.viewing-case) .scrolling table.case-list-table {

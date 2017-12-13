@@ -37,7 +37,7 @@
   background: transparent;
   border: none;
   border-radius: 0;
-  color: #42AFCB;
+  color: #0071BD;
   float: none;
   font-size: 24px;
   font-weight: 600;
@@ -101,7 +101,7 @@
   text-decoration: none;
 }
 #bootstrap-theme .civicase-type-and-manager .civicase-manager {
-  color: #42AFCB;
+  color: #0071BD;
   padding-top: 13px;
 }
 #bootstrap-theme .civicase-type-and-manager .civicase-manager strong{
@@ -122,7 +122,7 @@
   margin: 0;  
 }
 #bootstrap-theme nav.civicase-view-tab-bar {
-  background-color: #42AFCB;
+  background-color: #0071BD;
   border: 0 none;
   border-radius: 0;
   box-shadow: 0 5px 20px rgba(0,0,0,.2);
@@ -219,7 +219,7 @@
   margin-left: 10px;
 }
 #bootstrap-theme .case-people-status .select2-container:not(.select2-container-disabled) .select2-choice .select2-chosen {
-  color: #42AFCB;
+  color: #0071BD;
 }
 #bootstrap-theme .select2-container,
 #bootstrap-theme .form-control.select2-container {
@@ -344,8 +344,7 @@
   margin-right: 0;
 }
 #bootstrap-theme .case-people-subtab tr.unassigned {
-  color: #b7b7b7;
-  font-style: italic;
+  color: #9494A5;
 }
 #bootstrap-theme .case-people-subtab td,
 #bootstrap-theme .case-people-subtab th {
@@ -364,7 +363,7 @@
 #bootstrap-theme .case-people-subtab td:last-child .btn-group .btn:hover {
   background: none;
   box-shadow: none;
-  color: #42AFCB;
+  color: #0071BD;
 }
 #bootstrap-theme .case-tab-people .nav.nav-tabs > li:first-child {
   margin-left: 1em;
@@ -409,10 +408,10 @@
   border-left: 5px solid;
 }
 #bootstrap-theme .civicase-view-tasks .act-feed-item.activity-overdue {
-  border-left-color: #e6807f !important;
+  border-left-color: #CF3458 !important;
 }
 #bootstrap-theme .civicase-view-tasks .act-feed-item.activity-overdue .cb-dot {
-  background-color: #e6807f !important;
+  background-color: #CF3458 !important;
 }
 #bootstrap-theme .case-tab-files .act-feed-panel {
   box-shadow: none;
@@ -471,7 +470,7 @@
   padding-top: 8px;
 }
 #bootstrap-theme .civicase-view-other-cases .civicase-view-other-case .crm-is-linked {
-  color: #42AFCB;
+  color: #0071BD;
   font-size: 16px;
   padding-top: 3px;
   margin-left: 15px;
